@@ -20,7 +20,7 @@ const Navigator = () => {
             <NavigationContainer>
                 {email ? <>
                     <Tab.Navigator
-                        initialRouteName='My Profile'
+                        initialRouteName='Shop'
                         screenOptions={{
                             headerShown: false,
                             tabBarShown: false,
